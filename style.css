@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+ .style-1{
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    
+}
+
+.style-2{
+    display:flex;
+} 
+
+.style-1:hover{
+    background-color: aqua;
+    -webkit-box-shadow: -6px 5px 15px 14px #000000; 
+box-shadow: -6px 5px 15px 14px #000000;
+}
